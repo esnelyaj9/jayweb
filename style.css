@@ -1,6 +1,7 @@
 /* Site Wide */
 html {
   min-height: 100%;
+  
 }
 
 body {
@@ -20,6 +21,10 @@ body {
   margin: 0 10px;
 }
 
+p {
+  text-align: center;
+}
+
 footer  {
   position: flex;
   bottom:0;
@@ -27,6 +32,8 @@ footer  {
   text-align: center;
   
 }
+
+/* Home Page */
 
 #pfpmain {
   width: 400px;
@@ -42,4 +49,16 @@ footer  {
 #schoolpic {
   width:50%;
   height: 50%;
+  border: 3px solid;
+}
+
+.column {
+  float:left;
+  width: 33.33%;
+  padding:5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
