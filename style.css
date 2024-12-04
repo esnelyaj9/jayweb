@@ -50,6 +50,9 @@ footer  {
   width:50%;
   height: 50%;
   border: 3px solid;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .row {
@@ -58,4 +61,10 @@ footer  {
 .column {
   flex: 33.33%;
   padding: 5px;
+}
+
+/* Extracurriculars */
+
+#header {
+  text-align: center;
 }
